@@ -226,3 +226,44 @@ textarea{
     width: 290px;
     font-size: 20px;
 }
+footer{
+    text-align: center;
+    display: block;
+    /* height: 500px; */
+    background-color: white;
+}
+.footItems{
+    margin: 100px 0;
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footItems >h1{
+    margin: 0 auto;
+    font-size: 65px;
+    color: #7d2cff;
+    padding: 30px;
+    font-weight: bolder;
+}
+.footItems >p{
+    margin: auto;
+    font-size: 16px;
+    color: #4a4953;
+    width: 531px;
+    padding-bottom: 30px;
+}
+.navMenu{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #252432;
+    font-size: 13px;
+}
