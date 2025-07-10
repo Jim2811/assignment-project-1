@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+    /* background-color: #F5F8FF; */
+}
+header{
+    background-image: url(images/Hero-bg.png);
+    background-repeat: no-repeat;
+    height: 698px;
+}
+nav{
+    display: flex;
+    height: 151px;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    font-size: 35px;
+    color: #7d2cff;
+    /* color: #f3a600; */
+    font-weight: bolder;
+}
+.sup{
+    width: 130px;
+    height: 45px;
+}
+.btns{
+    font-size: 16px;
+    color: white;
+    background-color: #7d2cff;
+    font-weight: bolder;
+    cursor: pointer;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.btns:hover{
+    background-color: #f3a600;
+    font-size: 17px;
+    transition: 0.8s;
+    transform: scale(1.2);
+    box-shadow: 2px 2px 5px black;
+}
+.intro{
+    /* width: 905px; */
+    text-align: center;
+    height: 237px;
+    margin: 40px 150px 0px 150px;
+    padding: 20px;
+}
+.inTitle{
+    font-size: 65px;
+    color: #252432;
+    padding: 20px;
+}
+.fcs-bt{
+    width: 175px;
+    height: 47px;
+    margin-top: 20px;
+}
