@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -59,12 +60,15 @@ nav{
     height: 47px;
     margin-top: 20px;
 }
+.clr{
+    color: #252432;
+}
 main{
     background-color: #F5F8FF;
     padding: 100px 200px;
 }
 .action{
-    width: 1000px;
+    width: 1040px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -91,4 +95,30 @@ main{
     height: 300px;
     width: 400px;
     border-radius:15px ;
+}
+.user{
+    background-color: #E5E7FF;
+    width: 1000px;
+    margin-top: 100px;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+.uTitle{
+    font-size: 35px;
+    padding-top: 25px;
+}
+.success{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.scs{
+    font-size: 85px;
+    color: #7d2cff;
+    font-family:"Inter", sans-serif ;
+}
+.usr{
+    font-size: 20px;
+    color: #31303f;
 }
