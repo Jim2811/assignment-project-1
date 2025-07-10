@@ -177,3 +177,52 @@ main{
     font-size: 12px;
     color: #4a4953;
 }
+.contact{
+    /* margin: 100px 100px; */
+    margin: 100px 0px;
+    width: 1000px;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    justify-items: center;
+}
+.get_tch{
+    font-size: 75px;
+    padding-top: 150px;
+    width: 500px;
+    height: 230px;
+}
+.contact_form{
+    height: 450px;
+}
+.contact_form p{
+    padding: 15px 0px;
+    font-size: 15px;
+    color: #252432;
+}
+.contact_form input{
+    width: 270px;
+    height: 30px;
+    border-radius: 7px;
+    border: 0.2px solid black;
+    padding: 7px;
+}
+textarea{
+    width: 270px;
+    height: 140px;
+    border-radius: 7px;
+    border: 0.2px solid black;
+    padding: 10px;
+    resize: none;
+}
+.submit{
+    height: 50px;
+    width: 200px;
+}
+.tch{
+    display: block;
+    margin: 20px 0px ;
+    height: 70px;
+    width: 290px;
+    font-size: 20px;
+}
